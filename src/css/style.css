@@ -13,3 +13,6 @@ Soyez attentifs à l'ordre d'import :
 
 /* Vendors */
 @import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";

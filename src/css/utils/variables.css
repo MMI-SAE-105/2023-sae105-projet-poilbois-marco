@@ -1,0 +1,20 @@
+:root {
+    /* Styles de couleur */
+    --black: rgba(0, 0, 0, 1);
+    --dark: rgba(35, 32, 32, 1);
+    --gray-600: rgba(168, 160, 160, 1);
+    --gray-200: rgba(224, 213, 213, 1);
+    --yellow: rgba(244, 212, 44, 1);
+    --blue: rgba(43, 141, 232, 1);
+    --red: rgba(255, 55, 55, 1);
+
+    /* Tailles des polices de caractère */
+    --title-xl: 1,25rem;
+    --title-lg: 1rem;
+    --title-md: 0.875rem;
+    --body: 0.75rem;
+
+    /* Polices de caractère */
+    --font-Batang: 'Gowun Batang', serif;
+    --font-Nunito: 'Nunito Sans', sans-serif;
+}
