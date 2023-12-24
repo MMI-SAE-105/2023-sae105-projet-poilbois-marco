@@ -11,6 +11,9 @@ Soyez attentifs à l'ordre d'import :
   6. Les composant d'interface (Components)
 */
 
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Nunito+Sans:wght@300;400;600&display=swap');
+
 /* Vendors */
 @import "vendors/normalize.css";
 
