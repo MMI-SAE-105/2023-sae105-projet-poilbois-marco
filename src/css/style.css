@@ -10,3 +10,6 @@ Soyez attentifs à l'ordre d'import :
   5. Les règles de composition (Layout)
   6. Les composant d'interface (Components)
 */
+
+/* Vendors */
+@import "vendors/normalize.css";
