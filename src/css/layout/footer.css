@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--black);
+    color: var(--gray-200);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 13px;
+    padding-bottom: var(--space1x);
+}
+
+.footer_list {
+    list-style: none;
+}
+
+.footer_icons {
+    display: inline;
+}
+
+.footer_twitter {
+    padding-left: var(--space2x);
+    
+}
+
+.footer_department {
+    text-decoration: underline;
+}

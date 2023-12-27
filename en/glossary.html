@@ -8,25 +8,26 @@
 </head>
 <body>
 
-    <header class="header">
+    <header>
         <div>
-            <a class="header_link" 
-                href="#">
+            <a href="#">
                 <img src="/public/img/icone_logo.svg" 
                     alt="icon-logo">
             </a>
         </div>
-        <div class="header_menu">
-            <a href="/fr/glossaire.html">
-                <img src="/public/img/icone_drapeau_angleterre.svg"
+        <div>
+            <a href="#">
+                <img src="/public/img/icone_drapeau_angleterre.svg" 
                     alt="flag-en">
             </a>
+        </div>
+        <div>
             <a href="#">
-                <img src="/public/img/icone_menu_burger.svg"
+                <img src="/public/img/icone_menu_burger.svg" 
                     alt="menu-burger">
             </a>
         </div>
-        <!-- <nav>
+        <nav>
             <div>
                 <a href="#">
                     <img src="/public/img/icone_croix.svg" 
@@ -34,15 +35,15 @@
                 </a>
                 <ul>
                     <li>Articles</li>
-                    <li>A propos</li>
-                    <li>Glossaire</li>
+                    <li>About me</li>
+                    <li>Glossary</li>
                 </ul>
                 <ul>
-                    <li>Autres projets</li>
+                    <li>Others projects</li>
                     <li>Contact</li>
                 </ul>
             </div>
-        </nav> -->
+        </nav>
     </header>
 
     <section>
@@ -160,51 +161,47 @@
         </header>
     </section>
 
-    <footer>
-        <ul>
+    <footer class="footer">
+        <ul class="footer_list list">
             <li>
-                <a href="#">
+                <a class="link" 
+                    href="/en/contact.html">
                     <h3>Contact</h3>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a class="link" 
+                    href="/en/glossary.html">
                     <h3>Glossary</h3>
                 </a>
             </li>
         </ul>
-        <div>
-            <ul>
-                <li>
+
+        <section>
+            <h3>Marco Poilbois</h3>
+            <ul class="footer_list list">
+                <li class="footer_icons">
                     <a href="#">
-                        <h3>Marco Poilbois</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="/public/img/icone_instagram.svg" 
+                        <img src="/public/img/icone_instagram.svg"
                             alt="icon-instagram">
                     </a>
-                    <a href="#">
-                        <img src="/public/img/icone_twitter.svg" 
+                    <a class="footer_twitter" 
+                        href="#">
+                        <img src="/public/img/icone_twitter.svg"
                             alt="icon-twitter">
                     </a>
                 </li>
                 <li>
-                    Project carried out as part of an educational exercise
+                    Project carried out as part of an educational exercise in the
                 </li>
             </ul>
-            <ul>
-                <li>
-                    in the
-                </li>
-                <li>
-                    <a href="#">
-                        MMI department of Montbéliard
-                    </a>
-                </li>
-            </ul>
-        </div>
+            <p>
+                <a class="footer_department link" 
+                    href="http://mmimontbeliard.com/">
+                    MMI department of Montbéliard
+                </a>
+            </p>
+        </section>
     </footer>
 
 </body>

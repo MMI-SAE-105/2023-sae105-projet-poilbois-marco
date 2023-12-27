@@ -24,4 +24,4 @@ Soyez attentifs à l'ordre d'import :
 @import "base/main.css";
 
 /* Layout */
-@import "layout/header.css";
+@import "layout/footer.css";
