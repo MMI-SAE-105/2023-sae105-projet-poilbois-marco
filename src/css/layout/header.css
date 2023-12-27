@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: var(--black);
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
