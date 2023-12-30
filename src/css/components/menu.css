@@ -21,5 +21,4 @@
 .navbar_link {
     display: flex;
     padding-top: var(--space4x);
-    white-space: nowrap;
 }

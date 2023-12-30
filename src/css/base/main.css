@@ -45,6 +45,10 @@ h3 {
     color: var(--gray-600);
 }
 
+.line {
+  white-space: nowrap;
+}
+
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
 button {
   -webkit-appearance: none;
