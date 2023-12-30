@@ -15,8 +15,8 @@
     --body: 0.75rem;
 
     /* Polices de caractère */
-    --font-Batang: 'Gowun Batang', serif;
-    --font-Nunito: 'Nunito Sans', sans-serif;
+    --font-Orbitron: 'Orbitron', sans-serif;
+    --font-Roboto: 'Roboto', sans-serif;
 
     /* Espaces */
     --space1x: 10px;
@@ -24,4 +24,5 @@
     --space3x: 30px;
     --space4x: 45px;
     --space5x: 60px;
+    --space-menu: 80px;
 }

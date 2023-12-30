@@ -1,0 +1,25 @@
+.navbar {
+    position: absolute;
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: var(--title-md);
+    gap: var(--space2x);
+    padding-left: var(--space1x);
+}
+
+.navbar_icon {
+    margin: var(--space3x);
+    padding-bottom: 400px;
+}
+
+.navbar_link {
+    display: flex;
+    padding-top: var(--space4x);
+    white-space: nowrap;
+}

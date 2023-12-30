@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blade Scroller</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-<body>
+<body x-data="{ isOpen: false }">
 
     <header class="header">
         <div>
-            <a href="#">
+            <a href="/fr/index.html">
                 <img src="/public/img/icone_logo.svg" 
                     alt="icon-logo">
             </a>
@@ -20,28 +21,59 @@
                 <img src="/public/img/icone_drapeau_angleterre.svg"
                     alt="flag-en">
             </a>
-            <a href="#">
+            <a href="#"
+                @click="isOpen = !isOpen"
+            >
                 <img src="/public/img/icone_menu_burger.svg"
                     alt="menu-burger">
             </a>
         </div>
-        <!-- <nav>
-            <div>
-                <a href="#">
-                    <img src="/public/img/icone_croix.svg" 
-                        alt="icon-croix">
-                </a>
-                <ul>
-                    <li>Articles</li>
-                    <li>A propos</li>
-                    <li>Glossaire</li>
-                </ul>
-                <ul>
-                    <li>Autres projets</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </nav> -->
+        
+        <nav class="navbar"
+            x-show="isOpen"
+        >
+            <ul>
+                <li class="list">
+                    <a class="navbar_link link" 
+                        href="/fr/article-01.html">
+                        <h3>Articles</h3>
+                    </a>
+                </li>
+                <li class="list">
+                    <a class="navbar_link link" 
+                        href="/fr/a-propos.html">
+                        <h3>A propos</h3>
+                    </a>
+                </li>
+                <li class="list">
+                    <a class="navbar_link link" 
+                        href="/fr/glossaire.html">
+                        <h3>Glossaire</h3>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="list">
+                    <a class="navbar_link link" 
+                        href="/fr/autres-projets.html">
+                        <h3>Autres projets</h3>
+                    </a>
+                </li>
+                <li class="list">
+                    <a class="navbar_link link" 
+                        href="/fr/contact.html">
+                        <h3>Contact</h3>
+                    </a>
+                </li>
+            </ul>
+            <a class="navbar_icon"
+                href="#"
+                @click="isOpen = !isOpen"
+            >
+                <img src="/public/img/icone_croix.svg"
+                    alt="icon-croix">
+            </a>
+        </nav>
     </header>
 
     <div>

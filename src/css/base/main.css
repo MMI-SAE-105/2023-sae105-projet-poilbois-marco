@@ -7,17 +7,18 @@
 
 /* Les règles typographiques générales qui s'appliquent à tout le site */
 body {
-  font-family: var(--font-Nunito);
+  font-family: var(--font-Roboto);
   font-size: var(--body);
   line-height: 1.6;
   background-color: var(--dark);
   color: var(--gray-200);
+  padding-top: var(--space-menu);
 }
 
 /* Les règles typographiques générales des titres */
 h1,
 h2 {
-  font-family: var(--font-Batang);
+  font-family: var(--font-Orbitron);
   font-weight: normal;
   line-height: 1.1;
 }
