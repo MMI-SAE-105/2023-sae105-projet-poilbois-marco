@@ -13,6 +13,15 @@
     padding-top: var(--space4x);
 }
 
+.section__title {
+    padding-left: var(--space2x);
+}
+
+.section__paragraph {
+    margin: var(--space2x);
+    padding: var(--space2x);
+}
+
 .section__text {
     text-align: justify;
     line-height: 1.7;
