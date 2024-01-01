@@ -11,12 +11,12 @@
 
     <header class="header">
         <div>
-            <a href="#">
+            <a href="/fr/index.html">
                 <img src="/public/img/icone_logo.svg" 
                     alt="icon-logo">
             </a>
         </div>
-        <div class="header_menu">
+        <div class="header__menu">
             <a href="/en/index.html">
                 <img src="/public/img/icone_drapeau_angleterre.svg"
                     alt="flag-en">
@@ -34,19 +34,19 @@
         >
             <ul>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/fr/article-01.html">
                         <h3>Articles</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/fr/a-propos.html">
                         <h3>A propos</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/fr/glossaire.html">
                         <h3>Glossaire</h3>
                     </a>
@@ -54,19 +54,19 @@
             </ul>
             <ul>
                 <li class="list">
-                    <a class="navbar_link link line" 
+                    <a class="navbar__link link line" 
                         href="/fr/autres-projets.html">
                         <h3>Autres projets</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/fr/contact.html">
                         <h3>Contact</h3>
                     </a>
                 </li>
             </ul>
-            <a class="navbar_icon"
+            <a class="navbar__icon"
                 href="#"
                 @click="isOpen = !isOpen"
             >
@@ -76,14 +76,14 @@
         </nav>
     </header>
 
-    <section>
-        <header>
+    <section class="section">
+        <header class="section__header">
             <h1>
                 "Tous ces moments se perdrons 
                 dans le temps... commme... les
                 larmes sous la pluie"
             </h1>
-            <p>
+            <p class="section__text">
                 Le film Blade Runner occupe une place emblématique dans 
                 l'histoire du cinéma de science-fiction, marquant le début d'une 
                 nouvelle ère cinématographique au début des années 80. 
@@ -102,11 +102,14 @@
         </header>
     </section>
 
-    <section>
-        <header>
-            <h1>Film</h1>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__card-title">
+                Film
+            </h1>
             <figure>
-                <img src="/public/img/film-01.webp" 
+                <img class="section__img" 
+                    src="/public/img/film-01.webp" 
                     alt="affiche-Blade-Runner">
                 <figcaption>
                     Le film Blade Runner réalisé par Ridley Scott est un 
@@ -117,17 +120,21 @@
                     unique en son genre.
                 </figcaption>
             </figure>
-            <a href="#">
+            <a class="style-underline link"
+                href="/fr/film.html">
                 <p>Pour plus d'informations</p>
             </a>
         </header>
     </section>
 
-    <section>
-        <header>
-            <h1>Livre</h1>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__card-title">
+                Livre
+            </h1>
             <figure>
-                <img src="/public/img/livre-01.webp" 
+                <img class="section__img" 
+                    src="/public/img/livre-01.webp" 
                     alt="couverture-Neuromancer">
                 <figcaption>
                     Neuromancer écrit par William Gibson et publié en 1984 
@@ -139,17 +146,21 @@
                     univers futuriste inoubliable.
                 </figcaption>
             </figure>
-            <a href="#">
+            <a class="style-underline link"
+                href="/fr/livre.html">
                 <p>Pour plus d'informations</p>
             </a>
         </header>
     </section>
 
-    <section>
-        <header>
-            <h1>Musique</h1>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__card-title">
+                Musique
+            </h1>
             <figure>
-                <img src="/public/img/spoiler.webp" 
+                <img class="section__img" 
+                    src="/public/img/spoiler.webp" 
                     alt="pochette-Spoiler">
                 <figcaption>
                     Spoiler une composition musicale de l'artiste Hyper. 
@@ -162,17 +173,21 @@
                     en son genre.
                 </figcaption>
             </figure>
-            <a href="#">
+            <a class="style-underline link"
+                href="/fr/musique.html">
                 <p>Pour plus d'informations</p>
             </a>
         </header>
     </section>
 
-    <section>
-        <header>
-            <h1>Réalisateur</h1>
+    <section class="section">
+        <header class="section__header">
+            <h1 class="section__card-title">
+                Réalisateur
+            </h1>
             <figure>
-                <img src="/public/img/ridley_scott.webp" 
+                <img class="section__img" 
+                    src="/public/img/ridley_scott.webp" 
                     alt="ridley-scott">
                 <figcaption>
                     Ridley Scott est un cinéaste britannique mondialement 
@@ -182,15 +197,16 @@
                     capacité à créer des mondes visuels captivants.
                 </figcaption>
             </figure>
-            <a href="#">
+            <a class="style-underline link"
+                href="/fr/realisateur.html">
                 <p>Pour plus d'informations</p>
             </a>
         </header>
     </section>
 
-    <div>
-        <header>
-            <div>
+    <section class="section">
+        <header class="section__header-article">
+            <div class="section__article">
                 <p>
                     Do Androids Dream of
                     Electric Sheep?
@@ -202,13 +218,14 @@
                     Science-Fiction,
                     Fiction philosophique, Fiction noire
                 </p>
-                <a href="#">
+                <a class="section__card-img" 
+                    href="/fr/frise.html">
                     <img src="/public/img/livre-02.webp" 
                         alt="livre-Electrc-Sheep">
                 </a>
             </div>
-            <span></span>
-            <div>
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
                 <p>
                     Martix
 
@@ -219,102 +236,118 @@
                     n'est qu'une illusion. Découvrez la
                     réalité cachée dans 'Matrix'."
                 </p>
-                <a href="#">
+                <a class="section__card-img" 
+                    href="/fr/liste.html">
                     <img src="/public/img/film-02.webp" 
                         alt="film-Matrix">
                 </a>
             </div>
-            <span></span>
-            <div>
-                <p>
-                    "Le Cyberpunk redéfinit la
-                    réalité : entre dystopie et
-                    cybernétique."
-                </p>
-                <p>
-                    #science-fiction
-                    #technologie
-                    #cybernétique
-                </p>
-                <a href="#">
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
+                <div>
+                    <p>
+                        "Le Cyberpunk redéfinit la
+                        réalité : entre dystopie et
+                        cybernétique."
+                    </p>
+                    <p class="section__card-hashtag">
+                        #science-fiction
+                        #technologie
+                        #cybernétique
+                    </p>
+                </div>
+                <a class="section__card-img" 
+                    href="/fr/article-01.html">
                     <img src="/public/img/article-01.webp" 
                         alt="futur-dystopique">
                 </a>
             </div>
-            <span></span>
-            <div>
-                <p>
-                    "Le Cyberpunk : une plongée
-                    noire dans un futur tech et
-                    sombre."
-                </p>
-                <p>
-                    #science-fiction
-                    #technologie
-                    #dystopie
-                </p>
-                <a href="#">
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
+                <div>
+                    <p>
+                        "Le Cyberpunk : une plongée
+                        noire dans un futur tech et
+                        sombre."
+                    </p>
+                    <p class="section__card-hashtag">
+                        #science-fiction
+                        #technologie
+                        #dystopie
+                    </p>
+                </div>
+                <a class="section__card-img" 
+                    href="/fr/article-02.html">
                     <img src="/public/img/article-02.webp" 
                         alt="caméra-surveillance">
                 </a>
             </div>
-            <span></span>
-            <div>
-                <p>
-                    "Le Cyberpunk en
-                    musique : les sons du
-                    futur dystopique."
-                </p>
-                <p>
-                    #musique
-                    #cyberpunk
-                    #technologie
-                </p>
-                <a href="#">
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
+                <div>
+                    <p>
+                        "Le Cyberpunk en
+                        musique : les sons du
+                        futur dystopique."
+                    </p>
+                    <p class="section__card-hashtag">
+                        #musique
+                        #cyberpunk
+                        #technologie
+                    </p>
+                </div>
+                <a class="section__card-img" 
+                    href="/fr/article-03.html">
                     <img src="/public/img/article-03.webp" 
                         alt="musique-CyberPunk2077">
                 </a>
             </div>
-            <span></span>
-            <div>
-                <p>
-                    "Blade Runner et l'ADN du
-                    Cyberpunk : une vision
-                    intemporelle du l'avenir."
-                </p>
-                <p>
-                    #bladerunner
-                    #cyberpunk
-                    #science-fiction
-                </p>
-                <a href="#">
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
+                <div>
+                    <p>
+                        "Blade Runner et l'ADN du
+                        Cyberpunk : une vision
+                        intemporelle du l'avenir."
+                    </p>
+                    <p class="section__card-hashtag">
+                        #bladerunner
+                        #cyberpunk
+                        #science-fiction
+                    </p>
+                </div>
+                <a class="section__card-img" 
+                    href="/fr/article-04.html">
                     <img src="/public/img/article-04.webp" 
                         alt="artwork-Blade-Runner">
                 </a>
             </div>
-            <span></span>
-            <div>
-                <p>
-                    "Le Cyberpunk : un
-                    miroir sombre de notre
-                    société technologique."
-                </p>
-                <p>
-                    #popcultutre
-                    #science-fiction
-                    #technologie
-                </p>
-                <a href="#">
+            <div class="section__card-spacing"></div>
+            <div class="section__article">
+                <div>
+                    <p>
+                        "Le Cyberpunk : un
+                        miroir sombre de notre
+                        société technologique."
+                    </p>
+                    <p class="section__card-hashtag">
+                        #popcultutre
+                        #science-fiction
+                        #technologie
+                    </p>
+                </div>
+                <a class="section__card-img" 
+                    href="/fr/article-05.html">
                     <img src="/public/img/article-05.webp" 
                         alt="affiche-Black-Mirror">
                 </a>
             </div>
         </header>
-    </div>
+    </section>
 
     <footer class="footer">
-        <div class="footer_grid">
-            <ul class="footer_list list">
+        <div class="footer__grid">
+            <ul class="footer__list">
                 <li>
                     <a class="link"
                         href="/fr/contact.html">
@@ -328,17 +361,17 @@
                     </a>
                 </li>
             </ul>
-            <section>
-                <h3 class="footer_name">
+            <section class="section">
+                <h3 class="footer__name">
                     Marco Poilbois
                 </h3>
-                <ul class="footer_list list">
-                    <li class="list">
+                <ul>
+                    <li class="list-unstyled">
                         <a href="#">
                             <img src="/public/img/icone_instagram.svg"
                                 alt="icon-instagram">
                         </a>
-                        <a class="footer_twitter"
+                        <a class="footer__twitter"
                             href="#">
                             <img src="/public/img/icone_twitter.svg"
                             alt="icon-twitter">
@@ -348,17 +381,17 @@
             </section>
         </div>
 
-        <div class="footer_mention">
-            <ul class="list">
-                <li class="list line">
+        <div class="footer__mention">
+            <ul>
+                <li class="list-unstyled">
                     Projet réalisé ans le cadre d'un exercice
                 </li>
-                <div class="line">
+                <div>
                     <li class="list">
-                            pédagogique au
+                        pédagogique au
                     </li>
                     <li class="list">
-                        <a class="footer_department link"
+                        <a class="style-underline link"
                             href="http://mmimontbeliard.com/">
                             département MMI de Montbéliard
                         </a>

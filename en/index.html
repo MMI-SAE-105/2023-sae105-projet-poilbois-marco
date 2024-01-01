@@ -11,12 +11,12 @@
 
     <header class="header">
         <div>
-            <a href="#">
+            <a href="/en/index.html">
                 <img src="/public/img/icone_logo.svg" 
                     alt="icon-logo">
             </a>
         </div>
-        <div class="header_menu">
+        <div class="header__menu">
             <a href="/fr/index.html">
                 <img src="/public/img/icone_drapeau_france.svg"
                     alt="flag-fr">
@@ -34,19 +34,19 @@
         >
             <ul>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/en/article-01.html">
                         <h3>Articles</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link line" 
+                    <a class="navbar__link link line" 
                         href="/en/about.html">
                         <h3>About me</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/en/glossary.html">
                         <h3>Glossary</h3>
                     </a>
@@ -54,19 +54,19 @@
             </ul>
             <ul>
                 <li class="list">
-                    <a class="navbar_link link line" 
+                    <a class="navbar__link link line" 
                         href="/en/others-projects.html">
                         <h3>Others projects</h3>
                     </a>
                 </li>
                 <li class="list">
-                    <a class="navbar_link link" 
+                    <a class="navbar__link link" 
                         href="/en/contact.html">
                         <h3>Contact</h3>
                     </a>
                 </li>
             </ul>
-            <a class="navbar_icon"
+            <a class="navbar__icon"
                 href="#"
                 @click="isOpen = !isOpen"
             >
@@ -308,32 +308,32 @@
     </div>
 
     <footer class="footer">
-        <div class="footer_grid">
-            <ul class="footer_list list">
+        <div class="footer__grid">
+            <ul class="footer__list">
                 <li>
                     <a class="link"
-                        href="/en/contact.html">
+                        href="/fr/contact.html">
                         <h3>Contact</h3>
                     </a>
                 </li>
                 <li>
                     <a class="link"
-                        href="/en/glossary.html">
+                        href="/fr/glossaire.html">
                         <h3>Glossary</h3>
                     </a>
                 </li>
             </ul>
-            <section>
-                <h3 class="footer_name">
+            <section class="section">
+                <h3 class="footer__name">
                     Marco Poilbois
                 </h3>
-                <ul class="footer_list list">
-                    <li class="list">
+                <ul>
+                    <li class="list-unstyled">
                         <a href="#">
                             <img src="/public/img/icone_instagram.svg"
                                 alt="icon-instagram">
                         </a>
-                        <a class="footer_twitter"
+                        <a class="footer__twitter"
                             href="#">
                             <img src="/public/img/icone_twitter.svg"
                             alt="icon-twitter">
@@ -343,17 +343,17 @@
             </section>
         </div>
 
-        <div class="footer_mention">
-            <ul class="list">
-                <li class="list line">
+        <div class="footer__mention">
+            <ul>
+                <li class="list-unstyled">
                     Project carried out as part of an educational exercise
                 </li>
-                <div class="line">
+                <div>
                     <li class="list">
                         in the
                     </li>
                     <li class="list">
-                        <a class="footer_department link"
+                        <a class="style-underline link"
                             href="http://mmimontbeliard.com/">
                             MMI department of Montbéliard
                         </a>

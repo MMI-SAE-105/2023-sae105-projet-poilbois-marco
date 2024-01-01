@@ -13,12 +13,13 @@
     padding-left: var(--space1x);
 }
 
-.navbar_icon {
+.navbar__icon {
     margin: var(--space3x);
     padding-bottom: 400px;
+    width: 100%;
 }
 
-.navbar_link {
+.navbar__link {
     display: flex;
     padding-top: var(--space4x);
 }

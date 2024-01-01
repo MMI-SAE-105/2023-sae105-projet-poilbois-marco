@@ -9,7 +9,7 @@
     background-color: var(--black);
 }
 
-.header_menu {
+.header__menu {
     display: flex;
     align-items: center;
     gap: var(--space3x);

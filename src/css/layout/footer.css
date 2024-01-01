@@ -4,27 +4,23 @@
     padding-bottom: var(--space1x);
 }
 
-.footer_grid {
+.footer__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.footer_list {
+.footer__list {
     list-style: none;
 }
 
-.footer_name {
+.footer__name {
     padding-left: 42px;
 }
 
-.footer_twitter {
+.footer__twitter {
     padding-left: var(--space2x);
 }
 
-.footer_department {
-    text-decoration: underline;
-}
-
-.footer_mention {
+.footer__mention {
     display: flex;
 }

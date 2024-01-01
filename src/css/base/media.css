@@ -1,0 +1,13 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    padding-top: var(--space2x);
+    padding-bottom: var(--space2x);
+}

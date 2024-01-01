@@ -45,6 +45,10 @@ h3 {
     color: var(--gray-600);
 }
 
+.style-underline {
+    text-decoration: underline;
+}
+
 .line {
   white-space: nowrap;
 }
