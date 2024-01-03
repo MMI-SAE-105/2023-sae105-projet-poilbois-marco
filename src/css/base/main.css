@@ -40,7 +40,8 @@ h3 {
     display: inline;
 }
 
-.link {
+.link,
+figcaption {
     text-decoration: none;
     color: var(--gray-600);
 }

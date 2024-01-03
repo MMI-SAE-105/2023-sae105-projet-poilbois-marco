@@ -18,11 +18,14 @@
     --font-Orbitron: 'Orbitron', sans-serif;
     --font-Roboto: 'Roboto', sans-serif;
 
+    /* Font variantes */
+    --letter-spacing: -0.05rem;
+
     /* Espaces */
-    --space1x: 10px;
-    --space2x: 15px;
-    --space3x: 30px;
-    --space4x: 45px;
-    --space5x: 60px;
-    --space-menu: 80px;
+    --space1x: 0.625rem;
+    --space2x: 0.9375rem;
+    --space3x: 1.875rem;
+    --space4x: 2.8125rem;
+    --space5x: 3.75rem;
+    --space-menu: 5rem;
 }

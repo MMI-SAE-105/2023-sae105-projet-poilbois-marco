@@ -10,4 +10,5 @@ figure {
 figcaption {
     padding-top: var(--space2x);
     padding-bottom: var(--space2x);
+    color: var(--gray-600);
 }
