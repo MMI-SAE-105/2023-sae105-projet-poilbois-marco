@@ -76,51 +76,54 @@
         </nav>
     </header>
 
-    <section>
+    <section class="section">
         <header>
-            <h1>Contact</h1>
-            <p>
+            <h1 class="section__title">Contact</h1>
+            <p class="form__text">
                 Bienvenue dans le formulaire de contact !
             </p>
-            <p>
+            <p class="form__text">
                 Si vous avez des questions ou des commentaires, n'hésitez
                 pas à utiliser notre formulaire de contact pour entrer en
                 relation avec nous afin de renseigner vos retours.
             </p>
-            <form action="#">
-                <p>
-                    <label for="email">Email :<br>
-                        <input type="email"
-                            placeholder="dupont@exemple.fr"
-                            id="email"
-                            name="email"
-                        >
-                    </label>
-                </p>
-                <p>
-                    <label for="object">Sujet :<br>
-                        <input type="text"
-                            placeholder="ex : Problème"
-                            id="object"
-                            name="object"
-                        >
-                    </label>
-                </p>
-                <p>
-                    <label for="mailbox">Commentaire :<br>
-                        <input type="text"
-                            placeholder="ex : Question"
-                            id="mailbox"
-                            name="mailbox"
-                        >
-                    </label>
-                </p>
-
-                <button>
-                    Envoyer
-                </button>
-
-            </form>
+            <div class="form__component">
+                <form class="form"
+                    action="#"
+                >
+                    <div class="form__label">
+                        <label for="email">Email :<br>
+                            <input type="email"
+                                placeholder="&nbsp;dupont@exemple.fr"
+                                id="email"
+                                name="email"
+                            >
+                        </label>
+                    </div>
+                    <div class="form__label">
+                        <label for="object">Sujet :<br>
+                            <input type="text"
+                                placeholder="&nbsp;ex : Problème"
+                                id="object"
+                                name="object"
+                            >
+                        </label>
+                    </div>
+                    <div class="form__label">
+                        <label for="mailbox">Commentaire :<br>
+                            <input type="text"
+                                style="padding-bottom: 150px;"
+                                placeholder="&nbsp;ex : Question"
+                                id="mailbox"
+                                name="mailbox"
+                            >
+                        </label>
+                    </div>
+                    <button class="form__btn btn">
+                        Envoyer
+                    </button>
+                </form>
+            </div>
         </header>
     </section>
 

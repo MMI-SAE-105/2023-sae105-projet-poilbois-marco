@@ -1,0 +1,48 @@
+.form {
+    border: 1px solid none;
+    padding-left: var(--space1x);
+    background-color: var(--gray-600);
+    border-radius: var(--space1x);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form__text {
+    padding-top: var(--space1x);
+    padding-right: var(--space3x);
+    padding-left: var(--space3x)
+}
+
+.form__component {
+    padding-top: var(--space3x);
+    padding-bottom: var(--space5x);
+}
+
+.form__label {
+    padding: var(--space1x);
+    color: var(--black);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="mailbox"] {
+    width: 90%;
+    padding: 4px;
+    margin-left: 10px;
+    background-color: var(--dark);
+    color: var(--gray-200);
+    border-radius: var(--space1x);
+    border: none;
+}
+
+.form__btn {
+    margin-left: 30%;
+    margin-top: var(--space3x);
+    margin-bottom: var(--space3x);
+}
+
+.form__btn:hover {
+    background-color: var(--gray-200);
+    color: var(--red);
+    border: 2px solid var(--red);
+}

@@ -30,6 +30,8 @@ Soyez attentifs à l'ordre d'import :
 @import "layout/section.css";
 @import "layout/article.css";
 @import "layout/projects.css";
+@import "layout/forms.css";
 
 /* Components */
 @import "components/menu.css";
+@import "components/button.css";
