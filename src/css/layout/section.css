@@ -9,7 +9,8 @@
     text-align: center;
 }
 
-.section__header-article {
+.section__header-article,
+.section__img-top-space {
     padding-top: var(--space4x);
 }
 
@@ -31,8 +32,9 @@
     text-align: justify;
     letter-spacing: var(--letter-spacing);
     line-height: 1.7;
-    padding-top: var(--space4x);
+    padding-top: var(--space2x);
     padding-bottom: var(--space2x);
+    margin: var(--space2x);
 }
 
 .section__img {

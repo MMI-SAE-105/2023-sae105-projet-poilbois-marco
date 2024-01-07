@@ -14,13 +14,6 @@
     color: var(--gray-600);
 }
 
-.article__paragraph {
-    text-align: justify;
-    letter-spacing: var(--letter-spacing);
-    line-height: 1.7;
-    font-weight: 500;
-}
-
 .article__figcaption {
     color: var(--gray-200);
 }
