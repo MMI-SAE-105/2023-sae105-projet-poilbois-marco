@@ -8,25 +8,28 @@
     padding-bottom: var(--space5x);
 }
 
-.frieze__structure {
+.frieze__description-size {
     text-align: justify;
     letter-spacing: -0.007rem;
     font-size: 0.65rem;
 }
 
-.frieze__structure-2 {
+.frieze__description-size-2 {
     text-align: justify;
     letter-spacing: -0.01rem;
     font-size: 0.58rem;
 }
 
-.frieze__grid-1,
-.frieze__border-left {
-    grid-column: 1;
+.frieze__img-left {
+    margin-top: 100px;
 }
 
-.frieze__border-left {
-    border: 4px solid var(--red);
+.frieze__img-right {
+    margin-top: 80px;
+}
+
+.frieze__grid-1 {
+    grid-column: 1;
 }
 
 .frieze__grid-2,
@@ -50,8 +53,7 @@
     margin-top: -70px;
 }
 
-.frieze__grid-3,
-.frieze__border-right {
+.frieze__grid-3 {
     grid-column: 3;
 }
 
