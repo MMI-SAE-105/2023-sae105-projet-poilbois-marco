@@ -54,6 +54,14 @@ figcaption {
   white-space: nowrap;
 }
 
+.index {
+  display: flex;
+  padding-left: var(--space4x);
+  align-items: center;
+  gap: var(--space1x);
+  padding-bottom: var(--space2x);
+}
+
 /* permet d'annuler la mise en forme des bouton qu'applique le navigateur. */
 button {
   -webkit-appearance: none;
