@@ -4,6 +4,10 @@ video {
     height: auto;
 }
 
+video {
+    margin-top: -7px;
+}
+
 figure {
     margin: 0;
 }
