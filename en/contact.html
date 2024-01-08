@@ -76,51 +76,56 @@
         </nav>
     </header>
 
-    <section>
+    <section class="section">
         <header>
-            <h1>Contact</h1>
-            <p>
+            <h1 class="section__title">
+                Contact
+            </h1>
+            <p class="form__text">
                 Welcome to the contact form ! 
             </p>
-            <p>
+            <p class="form__text">
                 If you have any questions or comments, please feel free to 
                 use our contact form to get in touch with us and provide us 
                 with your feedback.
             </p>
-            <form action="#">
-                <p>
-                    <label for="email">Email :<br>
-                        <input type="email"
-                            placeholder="johndoe@example.com"
-                            id="email"
-                            name="email"
-                        >
-                    </label>
-                </p>
-                <p>
-                    <label for="object">Suject :<br>
-                        <input type="text"
-                            placeholder="ex : Issue"
-                            id="object"
-                            name="object"
-                        >
-                    </label>
-                </p>
-                <p>
-                    <label for="mailbox">Comment :<br>
-                        <input type="text"
-                            placeholder="ex : Question"
-                            id="mailbox"
-                            name="mailbox"
-                        >
-                    </label>
-                </p>
-
-                <button>
-                    Send
-                </button>
-
-            </form>
+            <div class="form__component">
+                <form class="form" 
+                    action="#"
+                >
+                    <div class="form__label">
+                        <label for="email">Email :<br>
+                            <input type="email"
+                                placeholder="&nbsp;johndoe@example.com"
+                                id="email"
+                                name="email"
+                            >
+                        </label>
+                    </div>
+                    <div class="form__label">
+                        <label for="object">Suject :<br>
+                            <input type="text"
+                                placeholder="&nbsp;ex : Issue"
+                                id="object"
+                                name="object"
+                            >
+                        </label>
+                    </div>
+                    <div class="form__label">
+                        <label for="mailbox">Comment :<br>
+                            <input type="text"
+                                style="padding-bottom: 150px;"
+                                placeholder="&nbsp;ex : Question"
+                                id="mailbox"
+                                name="mailbox"
+                            >
+                        </label>
+                    </div>
+                    <button class="form__btn btn">
+                        Send
+                    </button>
+                </form>
+            </div>
         </header>
     </section>
 
@@ -129,13 +134,13 @@
             <ul class="footer__list">
                 <li>
                     <a class="link"
-                        href="/fr/contact.html">
+                        href="/en/contact.html">
                         <h3>Contact</h3>
                     </a>
                 </li>
                 <li>
                     <a class="link"
-                        href="/fr/glossaire.html">
+                        href="/en/glossary.html">
                         <h3>Glossary</h3>
                     </a>
                 </li>
