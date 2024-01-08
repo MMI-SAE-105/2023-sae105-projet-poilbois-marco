@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: var(--space3x);
+    margin-bottom: -30px;
 }
 
 .frieze__title {
@@ -49,20 +50,9 @@
     width: var(--space3x);
     height: var(--space3x);
     border-radius: 50%;
-    margin-left: 35px;
-    margin-top: -70px;
+    margin: -70px 0 0 35px;
 }
 
 .frieze__grid-3 {
     grid-column: 3;
 }
-
-.frieze__triangle {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-top: 30px solid var(--red);
-    margin-left: 170px;
-    margin-top: -30px;
-  }
