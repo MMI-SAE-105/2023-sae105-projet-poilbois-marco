@@ -40,3 +40,8 @@
 .projects__item-red {
     background-color: var(--red);
 }
+
+.projects__link {
+    text-decoration: none;
+    color: var(--black);
+}
