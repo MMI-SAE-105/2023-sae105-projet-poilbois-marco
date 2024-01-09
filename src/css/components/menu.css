@@ -13,7 +13,8 @@
     padding-left: var(--space1x);
 }
 
-.navbar__icon {
+.navbar__icon,
+.navbar__icon-video {
     margin: var(--space3x);
     padding-bottom: 400px;
     width: 100%;

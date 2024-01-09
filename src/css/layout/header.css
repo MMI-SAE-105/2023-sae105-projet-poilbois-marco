@@ -17,3 +17,7 @@
 .header__navbar {
     z-index: 1;
 }
+
+.header__navbar-icon {
+    display: none;
+}
