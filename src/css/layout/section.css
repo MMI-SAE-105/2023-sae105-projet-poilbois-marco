@@ -12,7 +12,8 @@
 
 .section__header-article,
 .section__img-top-space,
-.section__index {
+.section__index,
+.section__404 {
     padding-top: var(--space4x);
 }
 
